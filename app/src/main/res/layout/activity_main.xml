@@ -38,8 +38,8 @@
 
     <EditText
         android:id="@+id/cameraInput"
-        android:layout_width="190dp"
-        android:layout_height="30dp"
+        android:layout_width="@dimen/_190dp"
+        android:layout_height="@dimen/_30dp"
         android:layout_toRightOf="@id/cameraText"
         android:layout_below="@+id/singapore"
         android:layout_marginLeft="10dp"
@@ -55,8 +55,8 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="10dp"/>
     <EditText
-        android:layout_width="190dp"
-        android:layout_height="30dp"
+        android:layout_width="@dimen/_190dp"
+        android:layout_height="@dimen/_30dp"
         android:layout_toRightOf="@id/settingsText"
         android:layout_below="@+id/cameraInput"
         android:layout_marginLeft="7dp"/>
